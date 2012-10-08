@@ -1,6 +1,8 @@
-#this script should be run from the preferred server, which implies it is functional
-#  first subroutine to get and display status of each DB; if db is activated on the preferred server, the metric is in Exchange activation preference
-#  second subroutine to move each DB to the preferred server, the metric is in Exchange activation preference
+# Script to preempt or always failover the active database copy to the "preferred" server (based on preference number)
+# This can be run interactively from the exchange powershell
+# this script should be run from the preferred server, which implies it is functional
+#   first subroutine to get and display status of each DB; if db is activated on the preferred server, the metric is in Exchange activation preference
+#   second subroutine to move each DB to the preferred server, the metric is in Exchange activation preference
 
 ## INCREASE WINDOW WIDTH #####################################################
 

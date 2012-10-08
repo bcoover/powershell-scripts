@@ -1,5 +1,6 @@
-cd\
-cls
+# Distributed Exchange Clusters on less reliable infrastructure have
+# the habit of becoming inconsistent in terms of replicate and hence copy status
+# This script brings replication back to current and makes the database copies active again
 
 #load exchange2010 mgmt snapins
 Add-PSSnapin Microsoft.Exchange.Management.Powershell.Support
